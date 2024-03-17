@@ -1,6 +1,12 @@
 # WordpressDockerized
 
-### Inside docker folder, execute
+### Inside docker folder, 
+
+```
+rename/copy .env copy to .env and update the user and password as desired.
+```
+
+### then execute
 
 ```
 docker-compose up
@@ -22,6 +28,6 @@ localhost:8180
 ```
 
 ```
-user: root
-password: password
+user: {setup user}
+password: {setup password}
 ```
